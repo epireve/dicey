@@ -4,7 +4,7 @@
 
 Array formatted objects
 
-![](Screenshot 2018-11-16 at 16.59.33.png)
+![](Screenshot 2018-11-16_16.59.33.png)
 
 # Error handling exception
 
