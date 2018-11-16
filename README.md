@@ -2,6 +2,10 @@
 
 ![](Screenshot.png)
 
+Array formatted objects
+
+![](Screenshot 2018-11-16 at 16.59.33.jpg)
+
 # Error handling exception
 
 Redirect stderr to /dev/null.
