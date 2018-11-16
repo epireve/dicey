@@ -14,7 +14,6 @@ def on_message(ws, message):
     print(json.dumps(iteration))
     # for key, value in dict.items(iteration["payload"]["receipt"]):
     #     print(key,":",value, end=' ')
-
     # print("\n")
 
 def on_error(ws, error):
@@ -38,7 +37,7 @@ if __name__ == "__main__":
     websocket.enableTrace(True)
     ws = websocket.WebSocketApp("wss://betdice.one/dice/prod/ws/?EIO=3&transport=websocket",
                               on_message = on_message,
-                              on_error = on_error,
+                              # on_error = on_error,
                               on_close = on_close)
     # ws.on_open = on_open
     ws.run_forever()
