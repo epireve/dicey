@@ -1,12 +1,12 @@
-## Dicey
+# Dicey
 
 ![](Screenshot.png)
 
 Array formatted objects
 
-![](Screenshot 2018-11-16_16.59.33.png)
+![](Screenshot_2018-11-16_16.59.33.png)
 
-# Error handling exception
+## Error handling exception
 
 Redirect stderr to /dev/null.
 
